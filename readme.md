@@ -1,2 +1,0 @@
-# OdinTest
-Odin Test
