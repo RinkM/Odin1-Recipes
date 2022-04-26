@@ -1,11 +1,10 @@
-
-
-
-
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     background-image: url("../img/background-kitchen2.jpg");
-    background-size: cover;    
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    background-position: top;
+    background-attachment: fixed;
     /* font-size: 14px; */
 
     color:black;
@@ -17,52 +16,45 @@ body{
 
     /* background-color: darkslategray; */
 }
-.wrapper {font-family: 'Courier', Courier, monospace;}
+.wrapper {    
 
-.topbox {border-style: solid;
-  color: rgb(78, 9, 238);
-  font-size: 42px
 }
 
-.bottombox {border-style :solid;
-  color: orangered;
+.topbox {color: steelblue;
+  font-size: 42px;
+  font-family: "Square Peg", cursive;
+  display:flex;
+  align-items:center;
+
+}
+
+.bottombox {color: orangered;
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
   
   
   /* position:  */
 }
 
-
-
-.bottombox ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  top: 20px;
-  left: 20px;
-}
-
 .bottombox img{
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 5px;
+  /* border: 1px solid rgb(201, 9, 9); */
+  border-radius: 10 px;
+  padding: 0;
   width: 250px;
-  display: inline;
-  align-items: center;
   
+    
 }
 
-.bottombox li {
-  display: inline;
-  margin:auto;
-}
 
 .bottombox img:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 5px 5px 75px gold;
+    box-shadow: 5px 5px 75px rgb(42, 30, 96);
     opacity: 0.8;
-    filter:contrast(280%);
+    filter:saturate(125%);
+
   }
 
 
@@ -71,32 +63,12 @@ body{
 }
 
 
-h1 {
-    /* font-size: 14px; */
+.title {font-family: 'Nova Round', cursive;    
     font-weight: bold;
     line-height: 20pt;
-
 }
 
-img {width: 100 px;
-}
+.recipe-wrapper {font-family: 'Nova Slim', cursive;
+  font-size: 12px;
 
-  
-/* 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  } */
-
-div.polaroid {
-width: 30%;
-background-color: white;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-margin-bottom: 25px;
-}
-
-div.container {
-text-align: center;
-padding: 5px 10px;
 }

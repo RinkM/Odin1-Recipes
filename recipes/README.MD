@@ -1,11 +1,20 @@
-April 24,2022
+Apeil 25,2022
+First major draft complete. Contains index page with 3 recipes.  
+Recipe pages are organized into a table. 
 
+Current Issues : the background.
+Getting it to scroll / scale properly.
+
+Future Goals : 
+Turn this into a fake restaurant page. 
+Appetizer, main dish, dessert.
+Address, order online, reserve a table.
+
+
+April 24,2022
 Create a website displaying various recipes.
 Learn how to organize HTML 
 Learn how to utilise different CSS attributes to change the visuals of the site.
-
-Goal : 
-
 
 
 Assignment : 
